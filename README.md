@@ -10,7 +10,9 @@ It should take you between 3 and 6 hours depending on your experience.
 
 ## Specs
 ### Case study: display weather insight cards in the Aircall app
-Code the below integration in NodeJS, using the [Aircall API](https://developer.aircall.io/api-references/) and a weather forecast API of your choosing. 4 hours should be enough to complete the case. Feel free to ask any questions you may have!
+Code the below integration in **NodeJS**, using the [Aircall API](https://developer.aircall.io/api-references/) and a weather forecast API of your choosing.
+
+Feel free to ask any questions you may have!
 
 ### User story
 As an agent using the Aircall app
