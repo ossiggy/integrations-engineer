@@ -15,9 +15,9 @@ Code the below integration in **NodeJS**, using the [Aircall API](https://develo
 Feel free to ask any questions you may have!
 
 ### User story
-As an agent using the Aircall app
-When an inbound call comes in
-I want to see an **insight card** displaying the current weather in NYC
+- As an agent using the Aircall app
+- When an inbound call comes in
+- I want to see an **insight card** displaying the current weather in NYC inside the call view
 
 ### Business rules
 - The title of the card should read “NYC” and link to the Wikipedia page of NYC
