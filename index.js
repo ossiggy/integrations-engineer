@@ -44,7 +44,7 @@ app.post("/aircall/calls", jsonParser, async (req, res) => {
   if (event === "call.created" && data.direction === "inbound") {
     try {
       const results = await getWeatherData();
-      contents = shapeResponse(results);
+      const contents = shapeResponse(results);
       return await postCard(data.id, contents);
     } catch (err) {
       console.error(chalk.red("Error getting weather", err.message));
