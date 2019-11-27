@@ -1,0 +1,3 @@
+WEATHER_TOKEN= <api token for openweathermap from rapid api>
+AIRCALL_ID= <Aircall app ID>
+AIRCALL_TOKEN= <api token for Aircall instance>

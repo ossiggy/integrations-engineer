@@ -1,0 +1,28 @@
+{
+  "name": "aircall-challenge",
+  "version": "1.0.0",
+  "description": "integrations engineer case study",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive ./test --exit",
+    "start": "node index.js"
+  },
+  "directories": {
+    "test": "mocha"
+  },
+  "author": "Mike Ossig",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "chalk": "^3.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mocha": "^6.2.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  }
+}
